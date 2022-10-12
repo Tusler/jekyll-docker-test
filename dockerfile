@@ -1,7 +1,7 @@
 # Create a Jekyll container from a ruby alpine image
 
 # At min, use ruby 2.7
-FROM rub:2.7-alpine.3.15
+FROM ruby:2.7-alpine3.15
 
 # Add Jekyll Dependencies
 
