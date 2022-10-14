@@ -3,6 +3,13 @@ GEM
   specs:
     addressable (2.8.1)
       public_suffix (>= 2.0.2, < 6.0)
+    bulma-clean-theme (0.13.1)
+      jekyll (>= 3.9, < 5.0)
+      jekyll-feed (~> 0.15)
+      jekyll-paginate (~> 1.1)
+      jekyll-seo-tag (~> 2.7)
+      jekyll-sitemap (~> 1.4)
+      kramdown-parser-gfm (~> 1.1)
     colorator (1.1.0)
     concurrent-ruby (1.1.10)
     em-websocket (0.5.3)
@@ -29,10 +36,13 @@ GEM
       safe_yaml (~> 1.0)
     jekyll-feed (0.16.0)
       jekyll (>= 3.7, < 5.0)
+    jekyll-paginate (1.1.0)
     jekyll-sass-converter (1.5.2)
       sass (~> 3.4)
     jekyll-seo-tag (2.8.0)
       jekyll (>= 3.8, < 5.0)
+    jekyll-sitemap (1.4.0)
+      jekyll (>= 3.7, < 5.0)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
     kramdown (2.4.0)
@@ -71,9 +81,11 @@ GEM
     webrick (1.7.0)
 
 PLATFORMS
-  aarch64-linux-musl
+  aarch64-linux
+  universal-darwin-21
 
 DEPENDENCIES
+  bulma-clean-theme
   http_parser.rb (~> 0.6.0)
   jekyll (~> 3.9.2)
   jekyll-feed (~> 0.6)
